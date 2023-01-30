@@ -21,7 +21,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("/api")
-@Api(value = "API REST Produtos")
+@Api(value = "API REST Produtos - 2023")
 @CrossOrigin(origins = "*") // qualquer aplicação pode acessar essa api
 //@CrossOrigin(origins = "https://dominio.com") libera o acesso apenas para um dominio
 public class ProdutoRecurso {
